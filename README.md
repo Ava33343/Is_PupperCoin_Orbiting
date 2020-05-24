@@ -45,7 +45,7 @@ Here is another setup for PupperCoin for Deployment:
 ![CrowdSale Deployment](Images/crowdsale_deployment.png)
 
 <details><summary>
-Another CrowdSale Contract Deployment Setup on Remix
+Another Remix Setup for CrowdSale Contract Deployment
 </summary>
 
 ![CrowdSale](Images/crowdsale_setup.png)
@@ -82,6 +82,8 @@ Ropsten Testcoin
 
 </details>
 
+
+
 # References
 * http://remix.ethereum.org/
 * https://faucet.ropsten.be/
@@ -90,3 +92,6 @@ Ropsten Testcoin
 * https://medium.com/coinmonks/create-token-contract-and-time-limited-crowdsale-contract-with-whitelisting-in-solidity-1eb979d206f6
 * https://ethereum.stackexchange.com/questions/51757/basic-crowdsale-contract
 * https://ethereum.stackexchange.com/questions/51757/basic-crowdsale-contract
+* https://github.com/raineorshine/solidity-by-example
+* https://github.com/bkrem/awesome-solidity
+* https://solidity.readthedocs.io/en/v0.5.3/solidity-by-example.html#simple-open-auction
