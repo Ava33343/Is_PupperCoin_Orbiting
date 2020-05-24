@@ -82,7 +82,14 @@ Ropsten Testcoin
 
 </details>
 
+---
+## _Files_
 
+### [PupperCoin](Code/puppercoin.sol)
+
+### [CrowdSale](Code/crowdsale.sol)
+
+---
 
 # References
 * http://remix.ethereum.org/
