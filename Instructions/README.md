@@ -1,6 +1,3 @@
-# Is_PupperCoin_Obiting
-Can we learn pups better by crowd-selling PupperCoin on Solidity?
-
 # Unit 21: You sure can attract a crowd!
 
 ![crowd](https://image.shutterstock.com/image-photo/group-people-holding-cigarette-lighters-600w-687342115.jpg)
