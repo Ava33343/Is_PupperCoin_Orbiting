@@ -10,7 +10,7 @@ Crowd-selling PupperCoin coded on Solidity to fund generic trailing project on p
 
 ---
 
-## _**[PupperCoin](Code/puppercoin.sol)**_
+## _**[PupperCoin](Code/PupperCoin.sol)**_
 
 ### **Transaction on EtherScan for Puppercoin Contract Deployment**
 ![Transaction of puppercoin](Images/tx_etherscan_puppercoin.png)
@@ -38,7 +38,7 @@ Here is another setup for PupperCoin for Deployment:
 
 
 ---
-## _**[CrowdSale](Code/crowdsale.sol)**_
+## _**[CrowdSale](Code/Crowdsale.sol)**_
 
 ### **Crowdsale Contract Deployment on Remix**
 
@@ -85,9 +85,9 @@ Ropsten Testcoin
 ---
 ## _Files_
 
-### [PupperCoin](Code/puppercoin.sol)
+### [PupperCoin](Code/PupperCoin.sol)
 
-### [CrowdSale](Code/crowdsale.sol)
+### [CrowdSale](Code/Crowdsale.sol)
 
 ---
 
