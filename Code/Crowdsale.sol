@@ -31,8 +31,10 @@ RefundablePostDeliveryCrowdsale {
         Crowdsale(rate, wallet, token)
         CappedCrowdsale(goal)
         //TimedCrowdsale(open = now, close = now + 1 minutes) in this case
-        //TimedCrowdsale(open = now, close = now + 24 weeks) in the original question
-        TimedCrowdsale(fakenow, now + 1 minutes)
+        //        TimedCrowdsale(fakenow, fakenow + 1 minutes)
+        //TimedCrowdsale(open = fakenow, close = fakenow + 24 weeks) in the original question
+        TimedCrowdsale(now, now + 24 weeks)
+
         RefundableCrowdsale(goal)
 
         // @TODO: Pass the constructor parameters to the crowdsale contracts.
@@ -53,9 +55,9 @@ contract PupperCoinSaleDeployer {
         string memory name,
         string memory symbol,
         address payable wallet, // this address will receive all Ether raised by the sale
-        uint goal,
+        uint goal
         //create a variable called fakenow
-        uint fakenow
+        //uint fakenow
     )
         public
     {
@@ -64,8 +66,14 @@ contract PupperCoinSaleDeployer {
         token_address = address(token);
 
         // @TODO: create the PupperCoinSale and tell it about the token, set the goal, and set the open and close times to now and now + 24 weeks.
-        PupperCoinSale pupper_token = new PupperCoinSale(1, wallet, token, goal, fakenow, now + 1 minutes);
-        //PupperCoinSale pupper_token = new PupperCoinSale(1, wallet, token, goal, now, now + 24 weeks);
+        //PupperCoinSale pupper_token = new PupperCoinSale(1, wallet, token, goal, fakenow, fakenow + 2 minutes);
+        PupperCoinSale pupper_token = new PupperCoinSale(
+                            1, // 1 wei
+                            wallet, // address collecting the tokens
+                            token, // token sales
+                            goal, // maximum supply of tokens 
+                            now, 
+                            now + 24 weeks);
         //replace now by fakenow to get a test function
 
         //To test the time functionality for a shorter period of time: use fake now for start time and close time to be 1 min, etc.
