@@ -1,4 +1,4 @@
-# Is_PupperCoin_Obiting
+# Is_PupperCoin_Orbiting
 ## _Crowd-selling PupperCoin to Discover Interesting Facts on our best friends_
 
 ## **Overview**
